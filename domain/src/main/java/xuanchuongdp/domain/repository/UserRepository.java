@@ -1,4 +1,4 @@
-package xuanchuongdp.domain.entity.repository;
+package xuanchuongdp.domain.repository;
 
 import xuanchuongdp.domain.entity.User;
 
