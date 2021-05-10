@@ -1,4 +1,4 @@
-package xuanchuongdp.domain.entity;
+package xuanchuongdp.hexagonal.domain.entity;
 
 import lombok.AccessLevel;
 import lombok.Builder;

@@ -1,8 +1,8 @@
-package xuanchuongdp.data.jpa.repository;
+package xuanchuongdp.hexagonal.data.jpa.repository;
 
-import xuanchuongdp.domain.entity.User;
+import xuanchuongdp.hexagonal.domain.entity.User;
 
-public class UserRepository implements xuanchuongdp.domain.repository.UserRepository {
+public class UserRepository implements xuanchuongdp.hexagonal.domain.repository.UserRepository {
 
     private User existingUser;
 
