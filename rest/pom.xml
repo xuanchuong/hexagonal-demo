@@ -9,20 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hexagonal-bootstrap</artifactId>
+    <artifactId>hexagonal-rest</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>xuanchuongdp</groupId>
             <artifactId>hexagonal-domain</artifactId>
         </dependency>
+
+        <!-- Spring -->
         <dependency>
-            <groupId>xuanchuongdp</groupId>
-            <artifactId>hexagonal-data-jpa</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>xuanchuongdp</groupId>
-            <artifactId>hexagonal-rest</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 
