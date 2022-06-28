@@ -13,7 +13,7 @@ import xuanchuongdp.hexagonal.rest.config.RestConfiguration;
     RestConfiguration.class
 })
 public class Application {
-    // test
+    // test 3
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
